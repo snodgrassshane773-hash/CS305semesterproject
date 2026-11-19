@@ -1,0 +1,26 @@
+ID,Name,Begin date,End date,Duration,Completion,Cost,Priority,Coordinator,Predecessors,Outline number,Resources,Assignments,Task color,Notes,Web Link
+0,Version 1.0,8/31/26,9/30/26,31,90,0.0,1,Logan Waller,,1,Logan Waller;Matthew Williams;Robert Paterson;Shane Snodgrass;Deven Miller,0:100.00;1:100.00;2:100.00;3:100.00;4:100.00,,,
+1,"  Post-to-forum progression",9/15/26,9/30/26,16,100,0.0,1,,2-FS=P1D,1.1,Matthew Williams,1:100.00,,,
+2,"  Explore page",8/31/26,9/13/26,14,100,0.0,1,Logan Waller,,1.2,Logan Waller;Matthew Williams;Deven Miller,0:100.00;1:100.00;4:100.00,,,
+3,"  Personal account management",8/31/26,9/13/26,14,100,0.0,1,Robert Paterson,,1.3,Robert Paterson;Shane Snodgrass,2:100.00;3:100.00,,,
+4,"  Direct messaging",9/15/26,9/29/26,15,100,0.0,1,Robert Paterson,3-FS=P1D,1.4,Robert Paterson;Shane Snodgrass,2:100.00;3:100.00,,,
+5,"  Some profile customization (pics, bios, recent activity)",9/15/26,9/27/26,13,50,0.0,1,Deven Miller,3-FS=P1D,1.5,Deven Miller,4:100.00,,,
+6,Version 1.1,10/2/26,10/30/26,29,46,0.0,1,,0-FS=P1D,2,,,,,
+7,"  Post/forum query bar",10/2/26,10/17/26,16,100,0.0,1,Logan Waller,1-FS=P1D,2.1,Logan Waller;Robert Paterson,0:100.00;2:100.00,,,
+8,"  Individual profile showcase pages",10/2/26,10/14/26,13,0,0.0,1,Matthew Williams,3;5-FS=P3D,2.2,Matthew Williams,1:100.00,,,
+9,"  Profile cosmetics monetization (premium plan)",10/19/26,10/29/26,11,0,0.0,1,Matthew Williams,8-FS=P1D;11-FS=P1D,2.3,Matthew Williams;Deven Miller,1:100.00;4:100.00,,,
+10,"  Advertising account management (tiers)",10/18/26,10/30/26,13,0,0.0,1,Shane Snodgrass,7,2.4,Logan Waller;Shane Snodgrass,0:100.00;3:100.00,,,
+11,"  Maintenance, bug reporting, database optimization",10/2/26,10/17/26,16,100,0.0,1,Deven Miller,0,2.5,Shane Snodgrass;Deven Miller,3:100.00;4:100.00,,,
+12,Version 1.2,11/4/26,12/6/26,33,0,0,1,,6-FS=P4D,3,,,,,
+13,"  Favorites/recent pages",11/21/26,12/6/26,16,0,0,1,,14-FS=P2D,3.1,,,,,
+14,"  Interactive user dashboard",11/4/26,11/18/26,15,0,0,1,,2-FS=P23D,3.2,,,,,
+15,"  User-recommended improvements/features",11/22/26,12/6/26,15,0,0,1,,16-FS=P2D,3.3,,,,,
+16,"  Patching and maintenance",11/4/26,11/19/26,16,0,0,1,,6-FS=P4D,3.4,,,,,
+
+
+ID,Name,Default role,e-mail,Phone,Standard rate,Total cost,Total load
+0,Logan Waller,developer,,,0,0,74.0
+1,Matthew Williams,developer,,,0,0,85.0
+2,Robert Paterson,developer,,,0,0,76.0
+3,Shane Snodgrass,developer,,,0,0,89.0
+4,Deven Miller,developer,,,0,0,85.0

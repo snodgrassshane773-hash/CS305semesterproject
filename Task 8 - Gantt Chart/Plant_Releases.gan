@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Plant Releases" company="" webLink="" view-date="2026-08-23" view-index="0" gantt-divider-location="437" resource-divider-location="312" version="3.3.3323" locale="en_US">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="105" order="0"/>
+        <field id="tpd4" name="Begin date" width="105" order="1"/>
+        <field id="tpd5" name="End date" width="105" order="2"/>
+        <field id="tpd9" name="Predecessors" width="106" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="216" order="0"/>
+        <field id="1" name="Default role" width="92" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="a0000001" name="Version 1.0" color="#8cb6ce" meeting="false" start="2026-08-31" duration="31" complete="90" expand="true">
+            <depend id="6" type="2" difference="1" hardness="Strong"/>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+            <task id="1" uid="a0000002" name="Post-to-forum progression" color="#8cb6ce" meeting="false" start="2026-09-15" duration="16" complete="100" expand="true">
+                <depend id="7" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="2" uid="a0000003" name="Explore page" color="#8cb6ce" meeting="false" start="2026-08-31" duration="14" complete="100" expand="true">
+                <depend id="1" type="2" difference="1" hardness="Strong"/>
+                <depend id="14" type="2" difference="23" hardness="Strong"/>
+            </task>
+            <task id="3" uid="a0000004" name="Personal account management" color="#8cb6ce" meeting="false" start="2026-08-31" duration="14" complete="100" expand="true">
+                <depend id="4" type="2" difference="1" hardness="Strong"/>
+                <depend id="5" type="2" difference="1" hardness="Strong"/>
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" uid="a0000005" name="Direct messaging" color="#8cb6ce" meeting="false" start="2026-09-15" duration="15" complete="100" expand="true"/>
+            <task id="5" uid="a0000006" name="Some profile customization (pics, bios, recent activity)" color="#8cb6ce" meeting="false" start="2026-09-15" duration="13" complete="50" expand="true">
+                <depend id="8" type="2" difference="3" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="6" uid="b0000001" name="Version 1.1" color="#8cb6ce" meeting="false" start="2026-10-02" duration="29" complete="46" expand="true">
+            <depend id="12" type="2" difference="4" hardness="Strong"/>
+            <depend id="16" type="2" difference="4" hardness="Strong"/>
+            <task id="7" uid="b0000002" name="Post/forum query bar" color="#8cb6ce" meeting="false" start="2026-10-02" duration="16" complete="100" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" uid="b0000003" name="Individual profile showcase pages" color="#8cb6ce" meeting="false" start="2026-10-02" duration="13" complete="0" expand="true">
+                <depend id="9" type="2" difference="1" hardness="Strong"/>
+            </task>
+            <task id="9" uid="b0000004" name="Profile cosmetics monetization (premium plan)" color="#8cb6ce" meeting="false" start="2026-10-19" duration="11" complete="0" expand="true"/>
+            <task id="10" uid="b0000005" name="Advertising account management (tiers)" color="#8cb6ce" meeting="false" start="2026-10-18" duration="13" complete="0" expand="true"/>
+            <task id="11" uid="b0000006" name="Maintenance, bug reporting, database optimization" color="#8cb6ce" meeting="false" start="2026-10-02" duration="16" complete="100" expand="true">
+                <depend id="9" type="2" difference="1" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="12" uid="c0000001" name="Version 1.2" color="#8cb6ce" meeting="false" start="2026-11-04" duration="33" complete="0" expand="true">
+            <task id="13" uid="c0000002" name="Favorites/recent pages" color="#8cb6ce" meeting="false" start="2026-11-21" duration="16" complete="0" expand="true"/>
+            <task id="14" uid="c0000003" name="Interactive user dashboard" color="#8cb6ce" meeting="false" start="2026-11-04" duration="15" complete="0" expand="true">
+                <depend id="13" type="2" difference="2" hardness="Strong"/>
+            </task>
+            <task id="15" uid="c0000004" name="User-recommended improvements/features" color="#8cb6ce" meeting="false" start="2026-11-22" duration="15" complete="0" expand="true"/>
+            <task id="16" uid="c0000005" name="Patching and maintenance" color="#8cb6ce" meeting="false" start="2026-11-04" duration="16" complete="0" expand="true">
+                <depend id="15" type="2" difference="2" hardness="Strong"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Logan Waller" function="1" contacts="" phone=""/>
+        <resource id="1" name="Matthew Williams" function="1" contacts="" phone=""/>
+        <resource id="2" name="Robert Paterson" function="1" contacts="" phone=""/>
+        <resource id="3" name="Shane Snodgrass" function="1" contacts="" phone=""/>
+        <resource id="4" name="Deven Miller" function="1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="4" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="4" function="Default:1" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="developer"/>
+    </roles>
+</project>
